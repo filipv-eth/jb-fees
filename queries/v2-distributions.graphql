@@ -1,0 +1,7 @@
+query v2Distributions {
+  distributePayoutsEvents(first:10000, orderBy:timestamp, orderDirection:desc){
+    timestamp
+    fee
+    projectId
+  }
+}
